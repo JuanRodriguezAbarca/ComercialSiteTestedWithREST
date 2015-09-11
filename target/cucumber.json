@@ -1,0 +1,833 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Selecting one single product and adding to the cart and checking the prices",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-one-single-product-and-adding-to-the-cart-and-checking-the-prices;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2960335880,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I order one single Sierra Solana product \u002718\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 507398088,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "product \u002718\u0027 should be added to the Cart with the correct price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartWithTheCorrectPrice(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Selecting one single product and adding to the cart and checking the prices",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-one-single-product-and-adding-to-the-cart-and-checking-the-prices;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 171670793,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I order one single Sierra Solana product \u002715\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274967793,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "product \u002715\u0027 should be added to the Cart with the correct price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartWithTheCorrectPrice(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Selecting one single product and adding to the cart and checking the prices",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-one-single-product-and-adding-to-the-cart-and-checking-the-prices;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 160324992,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I order one single Sierra Solana product \u002712\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288748758,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "product \u002712\u0027 should be added to the Cart with the correct price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartWithTheCorrectPrice(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Selecting one single product and adding to the cart and checking the prices",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-one-single-product-and-adding-to-the-cart-and-checking-the-prices;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172282151,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I order one single Sierra Solana product \u002720\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276017363,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "product \u002720\u0027 should be added to the Cart with the correct price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartWithTheCorrectPrice(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Selecting one single product and adding to the cart and checking the prices",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-one-single-product-and-adding-to-the-cart-and-checking-the-prices;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 166085580,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I order one single Sierra Solana product \u002744\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263675093,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "product \u002744\u0027 should be added to the Cart with the correct price",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartWithTheCorrectPrice(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Selecting product by product, adding to the cart and checking the names",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-product-by-product,-adding-to-the-cart-and-checking-the-names;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165901726,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I order one single Sierra Solana product \u002718\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 273258670,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "product \u002718\u0027 should be added to the Cart with the correct name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Selecting product by product, adding to the cart and checking the names",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-product-by-product,-adding-to-the-cart-and-checking-the-names;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170688606,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I order one single Sierra Solana product \u002715\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280335237,
+              "error_message": "java.lang.AssertionError: Names are not matching, founded \u0027EKOLOGICZNA \"BALDONA\" 5L***\u0027 when expected is \u0027EKOLOGICZNA \"BALDONA\" 5L\u0027\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat OliwaFirstTest.RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(RESTzOliwekImplementation.java:95)\r\n\tat ✽.Then product \u002715\u0027 should be added to the Cart with the correct name(OliwaSecondFeature.feature:18)\r\n",
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "product \u002715\u0027 should be added to the Cart with the correct name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Selecting product by product, adding to the cart and checking the names",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-product-by-product,-adding-to-the-cart-and-checking-the-names;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165875844,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I order one single Sierra Solana product \u002712\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315630164,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "product \u002712\u0027 should be added to the Cart with the correct name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Selecting product by product, adding to the cart and checking the names",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-product-by-product,-adding-to-the-cart-and-checking-the-names;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 162667783,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I order one single Sierra Solana product \u002720\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 260623664,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "product \u002720\u0027 should be added to the Cart with the correct name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Selecting product by product, adding to the cart and checking the names",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-product-by-product,-adding-to-the-cart-and-checking-the-names;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 168882203,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I order one single Sierra Solana product \u002744\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 42
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270138519,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "product \u002744\u0027 should be added to the Cart with the correct name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 9
+                }
+              ],
+              "location": "RESTzOliwekImplementation.itShouldBeAddedToTheCartAndContainCorrectName(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Selecting different products adding to the cart, verifying the total sum",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-different-products-adding-to-the-cart,-verifying-the-total-sum;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 496335651,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I order three products: \u002744\u0027, \u002718\u0027 and \u002712\u0027 and are added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 25
+                },
+                {
+                  "val": "18",
+                  "offset": 31
+                },
+                {
+                  "val": "12",
+                  "offset": 40
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderThreeProductsAndAreAddedToTheCart(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 250249786,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the total price should be correct calculated for the products \u002744\u0027, \u002718\u0027 and \u002712\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "44",
+                  "offset": 63
+                },
+                {
+                  "val": "18",
+                  "offset": 69
+                },
+                {
+                  "val": "12",
+                  "offset": 78
+                }
+              ],
+              "location": "RESTzOliwekImplementation.theTotalPriceShouldBeCorrect(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Selecting different products adding to the cart, verifying the total sum",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-different-products-adding-to-the-cart,-verifying-the-total-sum;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 493472092,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I order three products: \u002715\u0027, \u002744\u0027 and \u002720\u0027 and are added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 25
+                },
+                {
+                  "val": "44",
+                  "offset": 31
+                },
+                {
+                  "val": "20",
+                  "offset": 40
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderThreeProductsAndAreAddedToTheCart(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386354336,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the total price should be correct calculated for the products \u002715\u0027, \u002744\u0027 and \u002720\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 63
+                },
+                {
+                  "val": "44",
+                  "offset": 69
+                },
+                {
+                  "val": "20",
+                  "offset": 78
+                }
+              ],
+              "location": "RESTzOliwekImplementation.theTotalPriceShouldBeCorrect(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Selecting different products adding to the cart, verifying the total sum",
+        "description": "",
+        "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site;selecting-different-products-adding-to-the-cart,-verifying-the-total-sum;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 494775130,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I order three products: \u002712\u0027, \u002720\u0027 and \u002718\u0027 and are added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 25
+                },
+                {
+                  "val": "20",
+                  "offset": 31
+                },
+                {
+                  "val": "18",
+                  "offset": 40
+                }
+              ],
+              "location": "RESTzOliwekImplementation.iOrderThreeProductsAndAreAddedToTheCart(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262360900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the total price should be correct calculated for the products \u002712\u0027, \u002720\u0027 and \u002718\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 63
+                },
+                {
+                  "val": "20",
+                  "offset": 69
+                },
+                {
+                  "val": "18",
+                  "offset": 78
+                }
+              ],
+              "location": "RESTzOliwekImplementation.theTotalPriceShouldBeCorrect(int,int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@TestingREST"
+          }
+        ]
+      }
+    ],
+    "name": "Feature wich makes some tests to the http://www.olivagourmet.pl web site",
+    "description": "",
+    "id": "feature-wich-makes-some-tests-to-the-http://www.olivagourmet.pl-web-site",
+    "keyword": "Feature",
+    "uri": "OliwaSecondFeature.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TestingREST"
+      }
+    ]
+  }
+]
