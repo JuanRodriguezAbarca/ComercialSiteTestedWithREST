@@ -1,5 +1,6 @@
 package OliwaFirstTest;
 
+import Common.Constants;
 import Common.RequestModel;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
@@ -24,7 +25,7 @@ public class RESTzOliwekImplementation extends RequestModel {
 
     @Given("^I order one single Sierra Solana product '([^\"]*)'$")
     public void iOrderOneSingleSierraSolanaProductItShouldBeAddedToTheCart(String productId) {
-        baseURI = constant.THE_URL;
+        baseURI = Constants.THE_URL;
 
         Response selectOneSierraSolana = given().contentType(ContentType.URLENC).
                 body("products_id=" + productId + "&quantity=1").post("/rpc.php?action=add_to_basket");
@@ -48,7 +49,7 @@ public class RESTzOliwekImplementation extends RequestModel {
 
     @Then("^product '([^\"]*)' should be added to the Cart with the correct price$")
     public void itShouldBeAddedToTheCartWithTheCorrectPrice(int product) throws IOException {
-        baseURI = constant.THE_URL;
+        baseURI = Constants.THE_URL;
 
         double priceExpected = getTheProductPriceForSpecificElement(product);
 
@@ -73,7 +74,7 @@ public class RESTzOliwekImplementation extends RequestModel {
 
     @Then("^product '([^\"]*)' should be added to the Cart with the correct name$")
     public void itShouldBeAddedToTheCartAndContainCorrectName(int product) throws IOException {
-        baseURI = constant.THE_URL;
+        baseURI = Constants.THE_URL;
 
         String nameExpected = getTheProductNameForSpecificElement(product);
 
@@ -100,7 +101,7 @@ public class RESTzOliwekImplementation extends RequestModel {
     @Given("^I order three products: '([^\"]*)', '([^\"]*)' and '([^\"]*)' and are added to the cart$")
     public void iOrderThreeProductsAndAreAddedToTheCart(int product1, int product2, int product3) {
 
-        baseURI = constant.THE_URL;
+        baseURI = Constants.THE_URL;
 
 //        String nameGetterForAssertion = null;
 //        String priceGetterForAssertion = null;

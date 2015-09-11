@@ -8,8 +8,6 @@ import java.util.Map;
  */
 public class RequestModel {
 
-    public Constants constant = new Constants();
-
     public Map<String, String> temporaryCookies;
 
 
