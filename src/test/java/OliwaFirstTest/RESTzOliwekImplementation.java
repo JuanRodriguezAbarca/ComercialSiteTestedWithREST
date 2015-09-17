@@ -42,8 +42,8 @@ public class RESTzOliwekImplementation extends RequestModel {
 
         System.out.println("Status Code:\n" + selectOneSierraSolana.getStatusCode());
 
-        Assert.assertTrue("Body expected '" + constant.SELECT_PRODUCT_RESPONSE_BODY + "' and Body found '" + selectProductBody,
-                constant.SELECT_PRODUCT_RESPONSE_BODY.contentEquals(selectProductBody));
+        Assert.assertTrue("Body expected '" + Constants.SELECT_PRODUCT_RESPONSE_BODY + "' and Body found '" + selectProductBody,
+                Constants.SELECT_PRODUCT_RESPONSE_BODY.contentEquals(selectProductBody));
 
     }
 
@@ -86,7 +86,6 @@ public class RESTzOliwekImplementation extends RequestModel {
         List<Element> productListingList = doc.getElementsByAttributeValue("class", "productListing-data boxNumber total");
 
         System.out.println("Founded Elements: " + productListingList.size());
-
 
 
         String nameFounded = doc.getElementsByAttributeValue("class", "productListing-data").get(0).text();

@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        format = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"}, snippets = SnippetType.CAMELCASE,
+        monochrome = false,
+        format = {"pretty", "html:target/cucumber-html-report","json:target/cucumber.json"},
+        snippets = SnippetType.CAMELCASE,
         features ="src/test/resources",
         tags = {"@TestingREST"}
 )
