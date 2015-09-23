@@ -11,9 +11,9 @@ public class RequestModel {
     public Map<String, String> temporaryCookies;
 
 
-    public double getTheProductPriceForSpecificElement(int productID){
+    public double getTheProductPriceForSpecificElement(int productID) {
 
-        switch (productID){
+        switch (productID) {
             case 12:
                 return ProductsInfo.ID12.getProductPrice();
             case 15:
@@ -29,9 +29,9 @@ public class RequestModel {
         }
     }
 
-    public String getTheProductNameForSpecificElement(int productID){
+    public String getTheProductNameForSpecificElement(int productID) {
 
-        switch (productID){
+        switch (productID) {
             case 12:
                 return ProductsInfo.ID12.getProductName();
             case 15:
@@ -48,7 +48,7 @@ public class RequestModel {
 
     }
 
-    public double totalAmountFor3ProductsOneEach(int prod1, int prod2, int prod3){
-        return getTheProductPriceForSpecificElement(prod1)+getTheProductPriceForSpecificElement(prod2)+getTheProductPriceForSpecificElement(prod3);
+    public double totalAmountFor3ProductsOneEach(int prod1, int prod2, int prod3) {
+        return getTheProductPriceForSpecificElement(prod1) + getTheProductPriceForSpecificElement(prod2) + getTheProductPriceForSpecificElement(prod3);
     }
 }
